@@ -92,9 +92,7 @@ Para remediar esta vulnerabilidad, se debe implementar **DHCP Snooping** en los 
 3.  Configurar el puerto del Router legítimo como **Trusted** (Confiable).
 
 ```bash
-! Configuración en Switch Cisco
 ip dhcp snooping
-ip dhcp snooping vlan 2295
+ip dhcp snooping vlan 1
 interface e0/0
- description UPLINK_ROUTER
  ip dhcp snooping trust
