@@ -1,5 +1,4 @@
 # Dhcp_Rogue-Spoofing
-# Ataque-Dhcp_Starvation
 
 **Estudiante:** Masucci Franco Rincón  
 **Matrícula:** 2024-1250  
